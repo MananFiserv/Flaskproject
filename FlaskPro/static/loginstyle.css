@@ -1,0 +1,68 @@
+body {
+    background: #B2FEFA;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0ED2F7, #B2FEFA);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #747778, #B2FEFC);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #333;
+    font-family: Lato, sans-serif;
+}
+
+.container {
+    display: block;
+    width: 40vw;
+    margin: 50px auto 0;
+}
+
+#title {
+    margin-top: 5px;
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    color: #333;
+}
+
+.section2,
+.section3 {
+    margin: 20px 0;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #333;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background: #fff;
+    border-radius: 6px;
+    color: #888;
+}
+
+button {
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px;
+    margin: 5px;
+    font-size: 13px;
+    border-radius: 10%;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #2079b0;
+    text-decoration: none;
+}
+
+/* Add more styles as needed */

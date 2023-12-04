@@ -4,6 +4,7 @@ let incompleteTasks = document.getElementById("incomplete-tasks");
 let completedTasks = document.getElementById("completed-tasks");
 let clearButton = document.getElementById("clear");
 let dark_mode_button = document.getElementById("dark_mode");
+let logoutButton = document.getElementById("logoutButton")
 
 let createNewTask = function (taskName) {
     let listItem = document.createElement("li");
@@ -40,6 +41,7 @@ let addTask = function () {
     bindTaskEvents(listItem, taskCompleted);
     taskInput.value = "";
 }
+
 
 addButton.addEventListener("click", addTask);
 
@@ -97,3 +99,8 @@ let dark_mode = function(){
     element.classList.toggle("dark_mode");
 }
 dark_mode_button.addEventListener('click', dark_mode);
+
+logoutButton.addEventListener("click", function () {
+    // Redirect to the login page
+    window.location.href = 'login.html';
+});
